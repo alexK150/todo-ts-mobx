@@ -1,6 +1,10 @@
 import React, {useState} from 'react';
 
-export const InputForm: React.FC = () => {
+interface InputFormProps {
+    onAdd(title: string): void
+}
+
+export const InputForm: React.FC<InputFormProps> = ({onAdd}) => {
     const [title, setTitle] = useState<string>('');
 
     const changeTitle = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -9,7 +13,7 @@ export const InputForm: React.FC = () => {
 
     const onKeyPressHandler = (event: React.KeyboardEvent) => {
         if (event.key === 'Enter') {
-            console.log(title);
+            onAdd(title);
             setTitle('');
         }
     };
