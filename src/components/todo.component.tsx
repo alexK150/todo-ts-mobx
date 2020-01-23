@@ -1,10 +1,16 @@
 import React from 'react';
 
-export const Todo: React.FC = () => {
-    return <li className='todo'>
+import {ITodo} from "../interfaces";
+
+export const Todo: React.FC<ITodo> = ({id, completed, title}) => {
+    const dynamicClasses = ['todo'];
+    if (completed){
+        dynamicClasses.push('completed')
+    }
+    return <li className={dynamicClasses.join(' ')} key={id}>
         <label htmlFor="">
-            <input type="checkbox"/>
-            <span></span>
+            <input type="checkbox" checked={completed}/>
+            <span>{title}</span>
             <a className="waves-effect waves-light btn">delete</a>
         </label>
     </li>

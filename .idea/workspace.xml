@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="387cf43c-9406-4e34-9858-d88e213bd977" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input-form.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579769093006</updated>
-      <workItem from="1579769096753" duration="7489000" />
+      <workItem from="1579769096753" duration="9996000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1579770392203</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579775179320</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit v2 added todo-list and todo components, updated styles for new components">
+      <created>1579779950602</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579779950602</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="commit v1 added input form component with call back functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit v1 added input form component with call back functions" />
+    <MESSAGE value="commit v2 added todo-list and todo components, updated styles for new components" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit v2 added todo-list and todo components, updated styles for new components" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579779483511">
@@ -117,10 +125,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="754" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579770463138" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579775177058">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579779948842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579775177058" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579779948842" />
     <state x="565" y="258" width="260" height="212" key="Github.ShareDialog" timestamp="1579770352687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -141,9 +149,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="659" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579772028614" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579775180911">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579779952033">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579775180911" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579779952033" />
   </component>
 </project>
