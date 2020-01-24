@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react';
 
-import {Navbar} from "../components/navbar.component";
 import {InputForm} from "../components/input-form.component";
 import {TodoList} from "../components/todo-list.component";
 import {ITodo} from "../interfaces";
@@ -51,7 +50,6 @@ export const TodoPage: React.FC = () => {
 
     return (
         <>
-            <Navbar/>
             <div className='container'>
                 <InputForm onAdd={addTodo}/>
                 <TodoList
