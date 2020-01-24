@@ -14,7 +14,7 @@ export const TodoPage: React.FC = () => {
         setTodos(savedItems)
     }, []);
 
-    useEffect(()=>{
+    useEffect(() => {
         localStorage.setItem('todos', JSON.stringify(todos))
     }, [todos]);
 
