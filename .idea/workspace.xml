@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="387cf43c-9406-4e34-9858-d88e213bd977" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/todo.page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo-list.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/todo.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +84,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579769093006</updated>
-      <workItem from="1579769096753" duration="16096000" />
+      <workItem from="1579769096753" duration="21447000" />
+      <workItem from="1579849827277" duration="2692000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1579770392203</created>
@@ -110,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579783469196</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit v4 app updated with toggle and remove functionality">
+      <created>1579789828728</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579789828728</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +133,8 @@
     <MESSAGE value="commit v1 added input form component with call back functions" />
     <MESSAGE value="commit v2 added todo-list and todo components, updated styles for new components" />
     <MESSAGE value="commit v3 app updated with addTodo functionality and interface ITodo" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit v3 app updated with addTodo functionality and interface ITodo" />
+    <MESSAGE value="commit v4 app updated with toggle and remove functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit v4 app updated with toggle and remove functionality" />
   </component>
   <component name="WindowStateProjectService">
     <state x="755" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579779483511">
@@ -132,33 +145,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="754" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579770463138" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579783467495">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579789826830">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579783467495" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579789826830" />
     <state x="565" y="258" width="260" height="212" key="Github.ShareDialog" timestamp="1579770352687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="565" y="258" width="260" height="212" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1579770352687" />
-    <state width="659" height="178" key="GridCell.Tab.0.bottom" timestamp="1579772028615">
+    <state width="659" height="177" key="GridCell.Tab.0.bottom" timestamp="1579851494242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579772028615" />
-    <state width="659" height="178" key="GridCell.Tab.0.center" timestamp="1579772028614">
+    <state width="659" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579851494242" />
+    <state width="659" height="177" key="GridCell.Tab.0.center" timestamp="1579851494242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579772028614" />
-    <state width="659" height="178" key="GridCell.Tab.0.left" timestamp="1579772028614">
+    <state width="659" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579851494242" />
+    <state width="659" height="177" key="GridCell.Tab.0.left" timestamp="1579851494241">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579772028614" />
-    <state width="659" height="178" key="GridCell.Tab.0.right" timestamp="1579772028614">
+    <state width="659" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579851494241" />
+    <state width="659" height="177" key="GridCell.Tab.0.right" timestamp="1579851494242">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="659" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579772028614" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579783470524">
+    <state width="659" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579851494242" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579789829905">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579783470524" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579789829905" />
   </component>
 </project>

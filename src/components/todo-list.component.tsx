@@ -10,6 +10,10 @@ type TodoListProps = {
 }
 
 export const TodoList: React.FC<TodoListProps> = ({todos, onRemove, onToggle}) => {
+    if (todos.length === 0){
+        return <p className='center'>Todo List is Empty</p>
+    }
+
     return (
         <ul>
             {todos.map((todo: ITodo) => {

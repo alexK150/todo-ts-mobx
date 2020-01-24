@@ -13,6 +13,12 @@ export const Todo: React.FC<TodoProps> = ({todo, onToggle, onRemove}) => {
     if (todo.completed) {
         dynamicClasses.push('completed')
     }
+
+    const removeHandler = (event: React.MouseEvent, id: number) => {
+        event.preventDefault();
+        onRemove(id)
+    };
+
     return <li className={dynamicClasses.join(' ')}>
         <label>
             <input
@@ -20,8 +26,8 @@ export const Todo: React.FC<TodoProps> = ({todo, onToggle, onRemove}) => {
                 checked={todo.completed}
                 onChange={() => onToggle(todo.id)}/>
             <span>{todo.title}</span>
-            <a className="waves-effect waves-light btn"
-               onClick={() => onRemove(todo.id)}>delete</a>
+            <a className="waves-effect  blue lighten-1 btn"
+               onClick={event => removeHandler(event, todo.id)}>delete</a>
         </label>
     </li>
 };
