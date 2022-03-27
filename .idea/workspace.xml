@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="387cf43c-9406-4e34-9858-d88e213bd977" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/todo.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/todo.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input-form.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/todo.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TodoPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,22 +20,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1WmyW4ONFXXqPzWzdnezkWQ4jV9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,7 +49,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\FRONT-END\JS\REACT\PROJECTS\todo-ts\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\projects\todo-ts\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -71,6 +79,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -83,6 +92,7 @@
       <updated>1579769093006</updated>
       <workItem from="1579769096753" duration="21447000" />
       <workItem from="1579849827277" duration="6958000" />
+      <workItem from="1648392322411" duration="623000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1579770392203</created>
@@ -137,7 +147,18 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
@@ -148,47 +169,5 @@
     <MESSAGE value="commit v5 app updated confirmation for deleting, added TodoPage component, data from app binded to localStorage" />
     <MESSAGE value="commit v6 added about page, project updated with Routing" />
     <option name="LAST_COMMIT_MESSAGE" value="commit v6 added about page, project updated with Routing" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="755" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579779483511">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="755" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1579779483511" />
-    <state x="754" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579770463138">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="754" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1579770463138" />
-    <state x="101" y="0" key="CommitChangelistDialog2" timestamp="1579856242087">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="101" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579856242087" />
-    <state x="179" y="60" key="DiffContextDialog" timestamp="1579856210549">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="179" y="60" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1579856210549" />
-    <state x="565" y="258" width="260" height="212" key="Github.ShareDialog" timestamp="1579770352687">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="565" y="258" width="260" height="212" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1579770352687" />
-    <state width="659" height="177" key="GridCell.Tab.0.bottom" timestamp="1579851494242">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="659" height="177" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579851494242" />
-    <state width="659" height="177" key="GridCell.Tab.0.center" timestamp="1579851494242">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="659" height="177" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579851494242" />
-    <state width="659" height="177" key="GridCell.Tab.0.left" timestamp="1579851494241">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="659" height="177" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579851494241" />
-    <state width="659" height="177" key="GridCell.Tab.0.right" timestamp="1579851494242">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="659" height="177" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579851494242" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1579856334644">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579856334644" />
   </component>
 </project>

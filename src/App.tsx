@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 
-import {TodoPage} from "./pages/todo.page";
-import {Navbar} from "./components/navbar.component";
-import {AboutPage} from "./pages/about.page";
+import {TodoPage} from "./pages/TodoPage";
+import {Navbar} from "./components/Navbar";
+import {AboutPage} from "./pages/AboutPage";
 
 export const App: React.FC = () => {
 

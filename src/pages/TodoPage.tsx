@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 
-import {InputForm} from "../components/input-form.component";
-import {TodoList} from "../components/todo-list.component";
+import {InputForm} from "../components/InputForm";
+import {TodoList} from "../components/TodoList";
 import {ITodo} from "../interfaces";
 
 declare var confirm: (question: string) => boolean;
